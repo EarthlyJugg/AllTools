@@ -1,0 +1,3 @@
+include ':thread-pool-manager'
+include ':app'
+rootProject.name = "AllTools"
