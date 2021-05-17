@@ -1,15 +1,20 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.0"
+    compileSdkVersion compileSdkValue
+    buildToolsVersion buildToolsValue
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
     defaultConfig {
         applicationId "com.lingtao.alltools"
-        minSdkVersion 21
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion minSdkValue
+        targetSdkVersion targetSdkValue
+        versionCode versionCodeValue
+        versionName versionNameValue
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
