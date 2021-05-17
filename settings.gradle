@@ -1,5 +1,4 @@
 include ':base'
 include ':rv-lib'
-include ':thread-pool-manager'
 include ':app'
 rootProject.name = "AllTools"
